@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+blockquote {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: 0;
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+button {
+  background: 0;
+  border: 0;
+  padding: 0;
+}
