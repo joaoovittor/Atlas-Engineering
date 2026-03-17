@@ -10,7 +10,8 @@ h3,
 h4,
 ul,
 li,
-blockquote {
+blockquote,
+span {
   padding: 0px;
   margin: 0px;
 }
