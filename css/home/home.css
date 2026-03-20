@@ -55,4 +55,37 @@
   .btn1 {
     padding: 6px 15px;
   }
+  .content-introduction h1 {
+    white-space: initial;
+    margin-bottom: 20px;
+  }
+}
+
+/*Statistics*/
+.statistics-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 40px 50px 40px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.statistics-title h2 {
+  margin-bottom: 20px;
+}
+.statistics-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(10px, 3vw, 25px) clamp(10px, 3vw, 60px);
+  text-align: center;
+}
+@media (max-width: 853px) {
+  .statistics-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 371px) {
+  .statistics-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
