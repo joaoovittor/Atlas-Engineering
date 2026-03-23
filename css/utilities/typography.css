@@ -39,8 +39,28 @@
     500 clamp(1.5em, 7vw, 2.225rem)/1.2 "Inter",
     sans-serif;
 }
-.font-3-xs {
+.font-3-xs,
+.font-3-sx {
   font:
     400 clamp(0.55em, 7vw, 0.9em)/1.2 "Inter",
+    sans-serif;
+}
+.font-1-sx {
+  font:
+    400 clamp(2.5em, 7vw, 4.5em)/1 "Inter",
+    sans-serif;
+  letter-spacing: -3px;
+}
+.font-2-sx {
+  font:
+    300 clamp(0.9em, 3vw, 1.65em)/1 "Inter",
+    sans-serif;
+}
+.font-3-sx {
+  letter-spacing: 1px;
+}
+.font-4-sx {
+  font:
+    300 clamp(0.55em, 7vw, 1.125em)/1.2 "Inter",
     sans-serif;
 }
