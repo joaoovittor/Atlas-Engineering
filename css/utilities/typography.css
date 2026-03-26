@@ -64,3 +64,24 @@
     300 clamp(0.55em, 7vw, 1.125em)/1.2 "Inter",
     sans-serif;
 }
+.font-1-xy {
+  font:
+    400 clamp(2.5em, 5vw, 3.25em)/1 "Inter",
+    sans-serif;
+}
+.font-2-xy {
+  font:
+    300 clamp(1.1em, 3vw, 1.6em)/1 "Inter",
+    sans-serif;
+}
+.font-3-xy {
+  font:
+    500 clamp(1.1em, 3vw, 2em)/1 "Inter",
+    sans-serif;
+}
+.font-4-xy {
+  font:
+    300 clamp(0.875em, 3vw, 1.3em)/1 "Inter",
+    sans-serif;
+  letter-spacing: 1.5px;
+}
