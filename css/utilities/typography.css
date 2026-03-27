@@ -85,3 +85,29 @@
     sans-serif;
   letter-spacing: 1.5px;
 }
+.font-1-yx {
+  font:
+    500 clamp(0.765em, 3vw, 1.025em)/1 "Inter",
+    sans-serif;
+}
+.font-2-yx {
+  font:
+    400 clamp(1.765em, 3vw, 2.75em)/1 "Inter",
+    sans-serif;
+}
+.font-3-yx {
+  font:
+    400 clamp(0.65em, 3vw, 0.95em)/1 "Inter",
+    sans-serif;
+}
+.font-4-yx {
+  font:
+    600 clamp(1em, 3vw, 2.225em)/1 "Inter",
+    sans-serif;
+}
+.font-5-yx {
+  font:
+    600 clamp(0.45em, 2vw, 0.75em)/1 "Inter",
+    sans-serif;
+  text-transform: uppercase;
+}
