@@ -47,6 +47,9 @@
 .footer-icons img {
   max-width: 32px;
 }
+.footer-info li a:hover {
+  color: var(--co-2);
+}
 @media (max-width: 853px) {
   .footer-container {
     grid-template-columns: repeat(3, 1fr);
