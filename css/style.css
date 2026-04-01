@@ -9,3 +9,6 @@
 
 /*Home*/
 @import "./home/home.css";
+
+/*Projects*/
+@import url(./projects/projects.css);
