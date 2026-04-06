@@ -151,3 +151,34 @@
     100 clamp(1.3rem, 4vw, 2.225rem)/1 "Bree Serif",
     serif;
 }
+.font-1-xc {
+  font:
+    500 clamp(0.75rem, 2vw, 0.95rem)/1 "Inter",
+    sans-serif;
+}
+.font-2-xc {
+  font:
+    600 clamp(2rem, 4.5vw, 3.15rem)/1 "Inter",
+    sans-serif;
+  letter-spacing: 1px;
+}
+.font-3-xc {
+  font:
+    600 clamp(0.9rem, 4.5vw, 1.225rem)/1 "Inter",
+    sans-serif;
+}
+.font-4-xc {
+  font:
+    500 clamp(0.75rem, 4.5vw, 1.025rem)/1 "Inter",
+    sans-serif;
+}
+.font-5-xc {
+  font:
+    600 clamp(0.75rem, 4.5vw, 1.625rem)/1 "Inter",
+    sans-serif;
+}
+.font-6-xc {
+  font:
+    500 clamp(0.75rem, 4.5vw, 0.85rem)/1 "Inter",
+    sans-serif;
+}

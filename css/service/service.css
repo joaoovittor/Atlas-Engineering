@@ -1,0 +1,89 @@
+.service-bg {
+  background-color: var(--co-5);
+}
+.service-container {
+  display: grid;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 50px 40px 0 40px;
+  position: relative;
+}
+.service-introduction {
+  text-align: center;
+}
+.service-introduction p {
+  margin-bottom: 5px;
+}
+.service-introduction h1 {
+  margin-bottom: clamp(50px, 10vw, 100px);
+}
+.service-plans {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 50px;
+  overflow-x: auto;
+}
+.service-plans-card {
+  display: grid;
+  margin: 0 auto;
+  max-width: 300px;
+  min-width: 200px;
+  background-color: var(--co-7);
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  align-items: stretch;
+}
+.service-plans-card h3,
+.service-plans-card p {
+  margin-bottom: 20px;
+}
+.service-plans-card h4 {
+  padding-top: 20px;
+  border-top: 1px solid #b4b4b4;
+  margin-bottom: 10px;
+}
+.service-plans-card-extra {
+  display: grid;
+  gap: 5px;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.service-plans-card-extra li {
+  position: relative;
+}
+.service-plans-card-extra li::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  left: -30px;
+  background-image: url(../../img/icons/services/correcticon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.btn2 {
+  background-color: var(--co-5);
+  justify-self: center;
+  padding: 12px 30px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.btn2:hover {
+  background-color: #d1621d;
+}
+@media (max-width: 881px) {
+  .service-container::after {
+    content: "→";
+    position: absolute;
+    top: 180px;
+    right: 45px;
+    color: var(--co-6);
+    animation: seta 0.5s ease-in 0s infinite alternate;
+  }
+}
