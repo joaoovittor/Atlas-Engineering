@@ -156,15 +156,17 @@
     500 clamp(0.75rem, 2vw, 0.95rem)/1 "Inter",
     sans-serif;
 }
-.font-2-xc {
+.font-2-xc,
+.font-2-xx {
   font:
-    600 clamp(2rem, 4.5vw, 3.15rem)/1 "Inter",
+    600 clamp(1.85rem, 4.5vw, 3.15rem)/1 "Inter",
     sans-serif;
   letter-spacing: 1px;
 }
-.font-3-xc {
+.font-3-xc,
+.font-7-xc {
   font:
-    600 clamp(0.9rem, 4.5vw, 1.225rem)/1 "Inter",
+    600 clamp(0.9rem, 4vw, 1.225rem)/1 "Inter",
     sans-serif;
 }
 .font-4-xc {
@@ -180,5 +182,27 @@
 .font-6-xc {
   font:
     500 clamp(0.75rem, 4.5vw, 0.85rem)/1 "Inter",
+    sans-serif;
+}
+.font-7-xc {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.font-1-xx {
+  font:
+    500 clamp(0.75rem, 2vw, 0.95rem)/1 "Inter",
+    sans-serif;
+}
+.font-2-xx {
+  font-weight: 300;
+}
+.font-3-xx {
+  font:
+    600 clamp(0.55rem, 2vw, 0.75rem)/1 "Inter",
+    sans-serif;
+}
+.font-4-xx {
+  font:
+    400 clamp(0.55rem, 2vw, 0.85rem)/1 "Inter",
     sans-serif;
 }
